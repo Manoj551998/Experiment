@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import com.postApp.apiResponse.ApiResponse;
 import com.postApp.dao.postAppDAO;
 import com.postApp.model.Users;
-//This is for checking
+//This is for checking branch protection
 @Controller
 public class RegisterController {
 	@RequestMapping(value="/register",method = RequestMethod.POST,produces = "application/json")
